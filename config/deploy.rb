@@ -5,7 +5,7 @@ require_relative "deploy/syns_env"
 lock "~> 3.11.0"
 
 set :application, "demo_deploy"
-set :repo_url, "git@github.com:oBuiVanQuynh/demo_deploy.git"
+set :repo_url, "git@github.com:sangnuce/demo_deploy.git"
 set :assets_roles, [:app]
 set :deploy_ref, ENV["DEPLOY_REF"]
 set :deploy_ref_type, ENV["DEPLOY_REF_TYPE"]
